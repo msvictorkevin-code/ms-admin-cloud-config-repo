@@ -44,3 +44,10 @@ management:
     export:
       prometheus:
         enabled: true
+
+keycloak:
+  realm: realm-proyecto
+  auth-server-url: http://localhost:8080/auth
+  resource: springboot-keycloak
+  public-client: true
+  bearer-only: true
