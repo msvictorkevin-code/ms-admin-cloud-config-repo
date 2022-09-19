@@ -47,7 +47,7 @@ management:
 
 keycloak:
   realm: realm-proyecto
-  auth-server-url: http://localhost:8080/auth
+  auth-server-url: http://localhost:8080/
   resource: springboot-keycloak.
   use-resource-role-mappings: false
   public-client: true
